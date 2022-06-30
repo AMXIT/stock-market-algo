@@ -6,3 +6,5 @@ some information- https://drive.google.com/file/d/1S3VQibtQd0xTFHuKuSrDqpToJYHst
 backtest report - https://drive.google.com/file/d/16KAewzkdgbSEmGDGJWwa8M2w771dhZhY/view?usp=sharing
 
 Nothing fancy , simpaly what is profitable and what works!!!
+
+note- written using angel broking api documentation
