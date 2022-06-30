@@ -4,3 +4,5 @@ an automated profitable stock market rule based strategy  automated using python
 some information- https://drive.google.com/file/d/1S3VQibtQd0xTFHuKuSrDqpToJYHstsbG/view?usp=sharing
 
 backtest report - https://drive.google.com/file/d/16KAewzkdgbSEmGDGJWwa8M2w771dhZhY/view?usp=sharing
+
+Nothing fancy , simpaly what is profitable and what works!!!
