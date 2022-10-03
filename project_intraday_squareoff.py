@@ -14,6 +14,7 @@ from smartapi import SmartConnect
 import smartapi.smartExceptions
 import time 
 import sys
+import pyotp
 
 
 # TELEGRAM
@@ -42,9 +43,11 @@ obj=SmartConnect(api_key=API_KEY)
 #username_password
 USER_NAME = '?'
 PWD = '?'
-
+TOTP_COUPON='?'
+TOTP = pyotp.TOTP(TOTP_COUPON)
+TOTP=TOTP.now()
 #login api call
-data = obj.generateSession(USER_NAME,PWD)
+data = obj.generateSession(USER_NAME,PWD,TOTP)
 refreshToken= data['data']['refreshToken']
 
 #fetch the feedtoken
